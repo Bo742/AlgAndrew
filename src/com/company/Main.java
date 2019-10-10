@@ -36,10 +36,10 @@ public class Main {
         ArrayList<Dat> secondAlg = algSecond.getStackDat();
         
         String answer = "";
-        for (int i = 0; i <firstAlg.size()-1 ; i++) {
+        for (int i = 0; i <firstAlg.size() ; i++) {
             answer += firstAlg.get(i).getNumberDat();
         }
-        for (int i = 1; i <secondAlg.size() ; i++) {
+        for (int i = secondAlg.size()-2; i >0 ; i--) {
             answer += secondAlg.get(i).getNumberDat();
         }
 
